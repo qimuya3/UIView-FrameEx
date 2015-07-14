@@ -12,12 +12,8 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "UIView+FrameEx is a category for UIView which makes it easy to access frame properties ."
   s.description  = <<-DESC
-                   A longer description of UIView+FrameEx in Markdown format.
+                  UIView+FrameEx is a category for UIView whick makes it easy to access frame  
 
-                   * Think: Why did you write this? What is the focus? What does it do?
-                   * CocoaPods will be using this to generate tags, and improve search results.
-                   * Try to keep it short, snappy and to the point.
-                   * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
   s.homepage     = "https://github.com/zhouxiangzhong/UIView-FrameEx"
