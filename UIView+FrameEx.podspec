@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
 
   s.name         = "UIView+FrameEx"
   s.version      = "0.0.1"
-  s.summary      = "UIView+FrameEx is a category for UIView which makes it easy to access frame properties ."
+  s.summary      = "UIView+FrameEx is a category for UIView which makes it easy to access frame properties."
   s.description  = <<-DESC
-                  UIView+FrameEx is a category for UIView whick makes it easy to access frame  
+                  UIView+FrameEx is a category for UIView whick makes it easy to access frame  properties.
 
                    DESC
 
