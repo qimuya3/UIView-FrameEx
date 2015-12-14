@@ -1,6 +1,6 @@
 
 #import <UIKit/UIKit.h>
-
+/// 方便使用UIView position
 @interface UIView (FrameEx)
 
 @property (nonatomic) CGFloat x;
