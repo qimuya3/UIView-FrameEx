@@ -23,7 +23,21 @@
 
 @property (nonatomic) CGSize size;
 
+
+#pragma mark - Set Anchor Point
+/**
+ *  设置锚点
+ *
+ *  @param anchorPoint 锚点
+ */
 - (void)setAnchorPoint:(CGPoint)anchorPoint;
+
+/**
+ *  根据锚点设置位置
+ *
+ *  @param point       位置
+ *  @param anchorPoint 锚点
+ */
 - (void)setPosition:(CGPoint)point atAnchorPoint:(CGPoint)anchorPoint;
 
 @end
