@@ -23,4 +23,7 @@
 
 @property (nonatomic) CGSize size;
 
+- (void)setAnchorPoint:(CGPoint)anchorPoint;
+- (void)setPosition:(CGPoint)point atAnchorPoint:(CGPoint)anchorPoint;
+
 @end
