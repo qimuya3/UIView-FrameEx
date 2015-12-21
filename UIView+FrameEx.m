@@ -101,4 +101,17 @@
     self.frame = frame;
 }
 
+#pragma mark - Set Anchor Point
+- (void)setAnchorPoint:(CGPoint)anchorPoint
+{
+    [self setPosition:self.origin atAnchorPoint:anchorPoint];
+}
+
+- (void)setPosition:(CGPoint)point atAnchorPoint:(CGPoint)anchorPoint
+{
+    CGFloat x = point.x - anchorPoint.x * self.width;
+    CGFloat y = point.y - anchorPoint.y * self.height;
+    [self setOrigin:CGPointMake(x, y)];
+}
+
 @end
